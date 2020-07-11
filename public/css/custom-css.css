@@ -1,0 +1,75 @@
+.userpgcategory{
+    margin-left: 0px !important;
+    position: relative;
+    bottom: auto;
+    overflow-x: hidden;
+    max-height: 90%;
+    background-color:  rgb(61, 56, 57);
+}
+.userpgcategory li{
+    width:100%;
+    padding: 0px;
+    border:none !important;
+    border-bottom: 2px solid rgb(37, 34, 34) !important;
+    margin-bottom: 0 !important;
+    position: static;
+    float: left;
+    list-style-type: none;
+}
+.userpgcategory li a, .userpgcategory li span{
+    text-decoration: none;
+    transition-duration: .3s;
+    padding: 2px 5px !important;
+    float: left;
+    width: 100%;
+    color:white;
+}
+.userpgcategory li:hover a, .userpgcategory li:hover i,
+.userpgcategory li:hover span{
+    background-color: rgb(15, 14, 14);
+    color: #fff;
+    cursor: pointer;
+    transition: all .1s ease;
+}
+.userpgcategory li:hover a{
+    border-right:4px solid rgb(223, 106, 28);
+}
+.userpgcategory li:active a{
+    background-color: rgb(15, 14, 14);
+    color: #fff;
+    border-right:4px solid rgb(223, 106, 28);
+}
+.userpgcategory li i{
+    color: white;
+    text-align: center;
+    padding: 5px 5px;
+    width: 50px;
+}
+.userpgcategory li a p{
+    padding-left: 15px;
+}
+.cardcategories{
+    padding: 0px !important;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(57, 57, 57);
+    color: whitesmoke;
+    text-align: center;
+    border-top: 2px solid rgb(223, 106, 28);
+}
+#ad_card{
+    background-color:rgb(45, 45, 45);
+}
+#card_box{
+    border-right:2px solid rgb(153, 150, 150);
+    border-bottom:3px solid rgb(153, 150, 150); 
+    background-color:rgb(45, 45, 45);
+    color:whitesmoke;
+}
+#card_box:hover{
+    background-color:rgb(40, 40, 41);
+}
